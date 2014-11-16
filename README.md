@@ -1,4 +1,4 @@
-ubuntu_rvm
-==========
+rvm
+===
 
-Ubuntu package for Ruby RVM
+RVM package for Ubuntu

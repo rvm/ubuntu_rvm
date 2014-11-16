@@ -1,0 +1,15 @@
+Source: rvm
+Maintainer: Rael Gugelmin Cunha <rael.gc@gmail.com>
+Section: ruby
+Priority: optional
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: rvm
+Architecture: all
+Depends: ${misc:Depends}, bash, tar, curl, gnupg, patch, bzip2, ca-certificates, gawk, g++, gcc, make, libc6-dev, patch, openssl, ca-certificates, libreadline6, libreadline6-dev, zlib1g, zlib1g-dev, libssl-dev, libyaml-dev, libsqlite3-dev, sqlite3, autoconf, libgdbm-dev, libncurses5-dev, automake, libtool, bison, pkg-config, libffi-dev
+Breaks: ruby1.9.1
+Provides: ruby
+Description: Ruby Version Manager (RVM)
+ RVM is a command-line tool which allows you to easily install, manage, and 
+ work with multiple ruby environments from interpreters to sets of gems.
