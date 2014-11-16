@@ -25,7 +25,7 @@ case "$1" in
         # Run rvm installer
         ./install
         # Read the rvm function
-	source /etc/profile.d/rvm.sh	
+	source /etc/profile.d/rvm.sh
 	# Run rvm requirements (just to double check)
 	rvm requirements
     ;;

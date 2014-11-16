@@ -28,7 +28,7 @@ case "$1" in
 	# Double check /etc/profile.d/rvm.sh removal
 	rm -Rf /etc/profile.d/rvm.sh
 	# Removing rvm group
-	if [ `cat /etc/group | grep $rvm_group_name` ]; then 
+	if [ `cat /etc/group | grep $rvm_group_name` ]; then
             groupdel rvm
         fi
 	# Some additional instructions

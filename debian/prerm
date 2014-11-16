@@ -20,7 +20,7 @@ set -e
 case "$1" in
     remove|upgrade|deconfigure)
         # Remove rvm without confirmation
-	rvm --force implode        
+	rvm --force implode
     ;;
 
     failed-upgrade)
