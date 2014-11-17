@@ -20,14 +20,10 @@ set -e
 
 case "$1" in
     configure)
-        # Go to rvm src folder
-        cd /usr/local/rvm/src/rvm
-        # Run rvm installer
-        ./install
-        # Read the rvm function
-	source /etc/profile.d/rvm.sh
+        # Go to rvm src folder and run installer
+        cd /usr/local/rvm/src/rvm && bash --noprofile ./scripts/install
 	# Run rvm requirements (just to double check)
-	rvm requirements
+        bash -c 'source /etc/profile.d/rvm.sh && rvm requirements'
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

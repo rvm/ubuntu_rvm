@@ -16,11 +16,8 @@ set -e
 
 case "$1" in
     install|upgrade)
-	# Add wayneeseguin gpg keys (if not exists)
-	key = "D39DC0E3"
-        if [[ ! `gpg --list-keys | grep "$key"` ]]; then
-	    gpg --keyserver hkp://keys.gnupg.net --recv-keys $key
-	fi
+        # Create rvm src folder if not exists (and the unique empty folder)
+        mkdir -p /usr/local/rvm/src/rvm/rvm-test
     ;;
 
     abort-upgrade)

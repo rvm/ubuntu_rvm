@@ -19,8 +19,11 @@ set -e
 
 case "$1" in
     remove|upgrade|deconfigure)
-        # Remove rvm without confirmation
-	rvm --force implode
+        # Read the rvm function
+        file="/etc/profile.d/rvm.sh"
+        if [ -f "$file" ]; then
+            bash --noprofile -c "source $file && rvm --force implode"
+        fi
     ;;
 
     failed-upgrade)
