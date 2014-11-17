@@ -526,4 +526,4 @@ src/rvm-test-rvm1/path_mismatch_comment_test.sh usr/local/rvm/src/rvm/rvm-test-r
 src/rvm-test-rvm1/rvm_project_rvmrc_comment_test.sh usr/local/rvm/src/rvm/rvm-test-rvm1
 src/.travis.yml usr/local/rvm/src/rvm
 src/LICENSE usr/local/rvm/src/rvm
-sudoers_to_rvm.sh usr/local/rvm/src/rvm
+rvm_add_sudoers.sh usr/local/rvm/src/rvm
