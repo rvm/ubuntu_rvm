@@ -27,7 +27,7 @@ sudo apt-get install rvm
 
 Now, in order to always load rvm, change the Ubuntu default terminal to always perform a login.
 
-At terminal window, click `Edit` > `Profile Preferences` > `Title and Command` > check `Run command as login shell`.
+At terminal window, click `Edit` > `Profile Preferences`, click on `Title and Command` tab and check `Run command as login shell`.
 
 ## 3. Logout and login
 
