@@ -20,9 +20,11 @@ set -e
 
 
 case "$1" in
-    purge|remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+    upgrade|failed-upgrade|abort-install|abort-upgrade)
+    ;;
+    remove|purge|disappear)
         # Double check complete folder removal
-	rm -Rf /usr/local/rvm
+	rm -Rf /usr/share/rvm
 	# Double check /etc/rvmrc removal
 	rm -Rf /etc/rvmrc
 	# Double check /etc/profile.d/rvm.sh removal

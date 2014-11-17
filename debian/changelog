@@ -1,22 +1,10 @@
-rvm (1.26.2-3) trusty; urgency=medium
-
-  * Fixing wrong file name for rvm sudoers script
-
- -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Mon, 17 Nov 2014 14:55:48 -0200
-
-rvm (1.26.2-2) trusty; urgency=medium
-
-  * Fixing package for Launchpad
-
- -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Mon, 17 Nov 2014 14:40:35 -0200
-
 rvm (1.26.2-1) trusty; urgency=medium
 
   * Updating RVM to 1.26.2
 
  -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Mon, 17 Nov 2014 14:17:15 -0200
 
-rvm (1.26.1-1) trusty; urgency=low
+rvm (1.26.1) trusty; urgency=low
 
   * Initial release
 

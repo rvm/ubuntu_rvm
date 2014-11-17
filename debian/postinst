@@ -21,12 +21,21 @@ set -e
 case "$1" in
     configure)
         # Go to rvm src folder and run installer
-        cd /usr/local/rvm/src/rvm/ && ./install
+        cd /usr/share/rvm/src/rvm/ && ./install
 	# Run rvm requirements (just to double check)
         source /etc/profile.d/rvm.sh
         rvm requirements
         # Add sudoers to rvm group
-        /usr/local/rvm/src/rvm/rvm_add_sudoers.sh
+        users=`awk -F':' '/^sudo/{print $4}' /etc/group`
+        IFS=',' read -a array <<< "$users"
+        for u in "${array[@]}"
+        do
+            usermod -a -G rvm $u
+            if [ ! -f "/home/$u/.rvmrc" ]; then
+                echo "Creating local gemsets for $u"
+                su - $u -c 'rvm user gemsets'
+            fi
+        done
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

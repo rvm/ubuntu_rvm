@@ -17,7 +17,7 @@ set -e
 case "$1" in
     install|upgrade)
         # Create rvm src folder if not exists (and the unique empty folder)
-        mkdir -p /usr/local/rvm/src/rvm/rvm-test
+        mkdir -p /usr/share/rvm/src/rvm/rvm-test
     ;;
 
     abort-upgrade)
