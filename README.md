@@ -3,7 +3,13 @@ RVM package for Ubuntu
 
 [RVM](http://rvm.io/) is a command-line tool which allows you to easily install, manage, and work with multiple ruby environments from interpreters to sets of gems.
 
-This package installs a multi-user rvm and provides automatic updates through a Ubuntu PPA.
+This package installs rvm with some defaults:
+- stable rvm is used;
+- rvm is installed using multi-user install;
+- all sudoers are automatic added to `rvm` group at install;
+- all sudoers get local gemsets enabled;
+
+Additionally automatic updates are provided by a Ubuntu PPA.
 
 # Install
 
@@ -27,20 +33,19 @@ At terminal window, click `Edit` > `Profile Preferences` > `Title and Command` >
 
 A lot of changes were made and in order to properly get all them working, you need to login and logout. This requires not only close terminal, but really logout and login again.
 
-## 4. Make local gemsets
-
-It's a good convention install the gemsets separated by each user.
-
-To enable local gemsets for your user, open a terminal (`Ctrl+Alt+T`) and run:
-
-```term
-rvm user gemsets
-```
-
-## 5. Install a ruby
+## 4. Install a ruby
 
 Now you're ready to install rubies. Open a terminal (`Ctrl+Alt+T`) and run:
 
 ```term
 rvm install ruby
+```
+# RVM Usage
+
+RVM complete instructions are available at RVM repository: https://github.com/wayneeseguin/rvm/tree/stable
+
+Additionally you can check manual pages too: open a Terminal (`Ctrl+Alt+T`) and run:
+
+```term
+man rvm
 ```
