@@ -24,6 +24,8 @@ case "$1" in
         cd /usr/local/rvm/src/rvm && bash --noprofile ./scripts/install
 	# Run rvm requirements (just to double check)
         bash -c 'source /etc/profile.d/rvm.sh && rvm requirements'
+        # Add sudoers to rvm group
+        bash /usr/local/rvm/src/rvm/rvm_add_sudoers.sh
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
