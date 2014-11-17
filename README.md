@@ -6,6 +6,7 @@ RVM package for Ubuntu
 This package installs rvm with some defaults:
 - stable rvm is used;
 - rvm is installed using multi-user install;
+- rvm is installed into `/usr/share/rvm` (as Debian/Ubuntu convention);
 - all sudoers are automatic added to `rvm` group at install;
 - all sudoers get local gemsets enabled;
 
