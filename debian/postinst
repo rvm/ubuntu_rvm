@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # postinst script for rvm
 #
 # see: dh_installdeb(1)
@@ -21,11 +21,12 @@ set -e
 case "$1" in
     configure)
         # Go to rvm src folder and run installer
-        cd /usr/local/rvm/src/rvm && bash --noprofile ./scripts/install
+        cd /usr/local/rvm/src/rvm/ && ./install
 	# Run rvm requirements (just to double check)
-        bash -c 'source /etc/profile.d/rvm.sh && rvm requirements'
+        source /etc/profile.d/rvm.sh
+        rvm requirements
         # Add sudoers to rvm group
-        bash /usr/local/rvm/src/rvm/rvm_add_sudoers.sh
+        /usr/local/rvm/src/rvm/rvm_add_sudoers.sh
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
