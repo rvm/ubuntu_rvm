@@ -1,3 +1,9 @@
+rvm (1.26.2-1) trusty; urgency=medium
+
+  * Updating RVM to 1.26.2
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Mon, 17 Nov 2014 14:17:15 -0200
+
 rvm (1.26.1-1) trusty; urgency=low
 
   * Initial release
