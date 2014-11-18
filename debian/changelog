@@ -1,3 +1,9 @@
+rvm (1.26.3-2) trusty; urgency=medium
+
+  * Removing breaks/conflict section (breaks Heroku toolbelt)
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Tue, 18 Nov 2014 16:36:55 -0200
+
 rvm (1.26.3-1) trusty; urgency=medium
 
   * Updating RVM to 1.26.3
