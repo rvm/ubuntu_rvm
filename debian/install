@@ -318,6 +318,7 @@ src/help/wrapper.md usr/share/rvm/src/rvm/help
 src/help/prepare.md usr/share/rvm/src/rvm/help
 src/help/srcdir.md usr/share/rvm/src/rvm/help
 src/help/osx-ssl-certs.md usr/share/rvm/src/rvm/help
+src/help/gemset/copy.md usr/share/rvm/src/rvm/help/gemset
 src/help/group.md usr/share/rvm/src/rvm/help
 src/help/upgrade.md usr/share/rvm/src/rvm/help
 src/help/info.md usr/share/rvm/src/rvm/help
@@ -519,6 +520,7 @@ src/gemsets/jruby/global.gems usr/share/rvm/src/rvm/gemsets/jruby
 src/rvm-test-rvm1/version_compare_comment_test.sh usr/share/rvm/src/rvm/rvm-test-rvm1
 src/rvm-test-rvm1/ruby-env_comment_test.sh usr/share/rvm/src/rvm/rvm-test-rvm1
 src/rvm-test-rvm1/load_ruby-version_comment_test.sh usr/share/rvm/src/rvm/rvm-test-rvm1
+src/rvm-test-rvm1/exports_comment_test.sh usr/share/rvm/src/rvm/rvm-test-rvm1
 src/rvm-test-rvm1/array_comment_test.sh usr/share/rvm/src/rvm/rvm-test-rvm1
 src/rvm-test-rvm1/rvm-user_comment_test.sh usr/share/rvm/src/rvm/rvm-test-rvm1
 src/rvm-test-rvm1/bundler_cd_hook_comment_test.sh usr/share/rvm/src/rvm/rvm-test-rvm1
