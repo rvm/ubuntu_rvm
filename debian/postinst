@@ -20,8 +20,8 @@ set -e
 
 case "$1" in
     configure)
-        # Go to rvm src folder and run installer
-        cd /usr/share/rvm/src/rvm/ && ./install
+        # Run RVM installer
+        rvm_path="/usr/share/rvm" /usr/share/rvm/src/rvm/install
 	# Run rvm requirements (just to double check)
         source /etc/profile.d/rvm.sh
         rvm requirements
