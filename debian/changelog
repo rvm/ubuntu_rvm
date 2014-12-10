@@ -1,6 +1,7 @@
 rvm (1.26.4-1) trusty; urgency=medium
 
   * Updating RVM to 1.26.4
+  * Adding double check for .rvmrc owning (Fixes #3)
 
  -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Wed, 10 Dec 2014 12:24:12 -0200
 
