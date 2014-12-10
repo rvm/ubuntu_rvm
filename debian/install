@@ -169,6 +169,7 @@ src/README.rdoc usr/share/rvm/src/rvm
 src/patchsets/ree/1.8.6/default usr/share/rvm/src/rvm/patchsets/ree/1.8.6
 src/patchsets/ree/1.8.7/default usr/share/rvm/src/rvm/patchsets/ree/1.8.7
 src/patchsets/ree/1.8.7/2012.02/default usr/share/rvm/src/rvm/patchsets/ree/1.8.7/2012.02
+src/patchsets/ruby/2.1.4/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.1.4
 src/patchsets/ruby/2.1.4/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.1.4
 src/patchsets/ruby/1.9.1/default usr/share/rvm/src/rvm/patchsets/ruby/1.9.1
 src/patchsets/ruby/1.9.1/p431/default usr/share/rvm/src/rvm/patchsets/ruby/1.9.1/p431
@@ -178,6 +179,7 @@ src/patchsets/ruby/2.0.0/p353/default usr/share/rvm/src/rvm/patchsets/ruby/2.0.0
 src/patchsets/ruby/2.0.0/p353/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.0.0/p353
 src/patchsets/ruby/2.0.0/osx_static usr/share/rvm/src/rvm/patchsets/ruby/2.0.0
 src/patchsets/ruby/2.0.0/p195/default usr/share/rvm/src/rvm/patchsets/ruby/2.0.0/p195
+src/patchsets/ruby/2.0.0/p594/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.0.0/p594
 src/patchsets/ruby/2.0.0/p594/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.0.0/p594
 src/patchsets/ruby/2.0.0/cygwin usr/share/rvm/src/rvm/patchsets/ruby/2.0.0
 src/patchsets/ruby/2.0.0/fedora usr/share/rvm/src/rvm/patchsets/ruby/2.0.0
@@ -185,6 +187,7 @@ src/patchsets/ruby/2.0.0/p0/default usr/share/rvm/src/rvm/patchsets/ruby/2.0.0/p
 src/patchsets/ruby/2.0.0/redhat usr/share/rvm/src/rvm/patchsets/ruby/2.0.0
 src/patchsets/ruby/2.0.0/p481/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.0.0/p481
 src/patchsets/ruby/2.0.0/p481/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.0.0/p481
+src/patchsets/ruby/2.0.0/p598/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.0.0/p598
 src/patchsets/ruby/2.0.0/p598/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.0.0/p598
 src/patchsets/ruby/2.0.0/p247/optional usr/share/rvm/src/rvm/patchsets/ruby/2.0.0/p247
 src/patchsets/ruby/2.0.0/p247/osx_static usr/share/rvm/src/rvm/patchsets/ruby/2.0.0/p247
@@ -202,6 +205,7 @@ src/patchsets/ruby/osx_static usr/share/rvm/src/rvm/patchsets/ruby
 src/patchsets/ruby/2.1/head/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.1/head
 src/patchsets/ruby/2.1/head/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.1/head
 src/patchsets/ruby/1.8.6/default usr/share/rvm/src/rvm/patchsets/ruby/1.8.6
+src/patchsets/ruby/2.1.5/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.1.5
 src/patchsets/ruby/2.1.5/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.1.5
 src/patchsets/ruby/2.1.1/osx_static usr/share/rvm/src/rvm/patchsets/ruby/2.1.1
 src/patchsets/ruby/2.1.1/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.1.1
@@ -236,12 +240,14 @@ src/patchsets/ruby/1.9.3/p374/float_warnings usr/share/rvm/src/rvm/patchsets/rub
 src/patchsets/ruby/1.9.3/p374/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/1.9.3/p374
 src/patchsets/ruby/1.9.3/p392/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/1.9.3/p392
 src/patchsets/ruby/1.9.3/p392/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/1.9.3/p392
+src/patchsets/ruby/1.9.3/p550/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/1.9.3/p550
 src/patchsets/ruby/1.9.3/p550/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/1.9.3/p550
 src/patchsets/ruby/1.9.3/scientific usr/share/rvm/src/rvm/patchsets/ruby/1.9.3
 src/patchsets/ruby/1.9.3/p327/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/1.9.3/p327
 src/patchsets/ruby/1.9.3/p327/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/1.9.3/p327
 src/patchsets/ruby/1.9.3/p385/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/1.9.3/p385
 src/patchsets/ruby/1.9.3/p385/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/1.9.3/p385
+src/patchsets/ruby/1.9.3/p551/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/1.9.3/p551
 src/patchsets/ruby/1.9.3/p551/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/1.9.3/p551
 src/patchsets/ruby/1.9.3/p547/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/1.9.3/p547
 src/patchsets/ruby/1.9.3/p547/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/1.9.3/p547
