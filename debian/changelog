@@ -1,3 +1,9 @@
+rvm (1.26.4-3) trusty; urgency=medium
+
+  * Trying to force /usr/share/rvm as install path
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Wed, 10 Dec 2014 23:05:27 -0200
+
 rvm (1.26.4-2) trusty; urgency=medium
 
   * Minor fix to postinst to avoid errors on upgrade
