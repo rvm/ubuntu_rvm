@@ -337,6 +337,7 @@ src/help/rvmrc/warning.md usr/share/rvm/src/rvm/help/rvmrc
 src/help/rvmrc/to.md usr/share/rvm/src/rvm/help/rvmrc
 src/help/reset.md usr/share/rvm/src/rvm/help
 src/help/do.md usr/share/rvm/src/rvm/help
+src/sign-releases.sh usr/share/rvm/src/rvm
 src/gem-cache/rvm-1.11.3.9.gem usr/share/rvm/src/rvm/gem-cache
 src/gem-cache/gem-wrappers-1.2.7.gem usr/share/rvm/src/rvm/gem-cache
 src/gem-cache/gem-empty-1.0.0.gem usr/share/rvm/src/rvm/gem-cache

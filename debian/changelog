@@ -1,3 +1,9 @@
+rvm (1.26.5-1) trusty; urgency=medium
+
+  * Updating RVM to 1.26.5
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Sat, 20 Dec 2014 09:08:11 -0200
+
 rvm (1.26.4-3) trusty; urgency=medium
 
   * Trying to force /usr/share/rvm as install path

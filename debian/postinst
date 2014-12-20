@@ -34,9 +34,6 @@ case "$1" in
             if [ ! -f "/home/$u/.rvmrc" ]; then
                 echo "Creating local gemsets for $u"
                 su - $u -c 'rvm user gemsets'
-            else
-                # Double checking .rvmrc owning
-                chown $u:$u /home/$u/.rvmrc
             fi
         done
     ;;
