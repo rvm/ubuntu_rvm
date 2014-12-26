@@ -1,3 +1,9 @@
+rvm (1.26.6-1) trusty; urgency=medium
+
+  * Updating RVM to 1.26.6
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Thu, 25 Dec 2014 23:30:30 -0200
+
 rvm (1.26.5-1) trusty; urgency=medium
 
   * Updating RVM to 1.26.5
