@@ -24,6 +24,7 @@ src/patches/ruby/1.9.1/openssl-1.0.patch usr/share/rvm/src/rvm/patches/ruby/1.9.
 src/patches/ruby/1.9.1/osx-arch-fix.patch usr/share/rvm/src/rvm/patches/ruby/1.9.1
 src/patches/ruby/1.9.1/p431/backport-2404.patch usr/share/rvm/src/rvm/patches/ruby/1.9.1/p431
 src/patches/ruby/1.9.1/nossl2.diff usr/share/rvm/src/rvm/patches/ruby/1.9.1
+src/patches/ruby/2.2.0/fix_installing_bundled_gems.patch usr/share/rvm/src/rvm/patches/ruby/2.2.0
 src/patches/ruby/2.0.0/43514.patch usr/share/rvm/src/rvm/patches/ruby/2.0.0
 src/patches/ruby/2.0.0/static.patch usr/share/rvm/src/rvm/patches/ruby/2.0.0
 src/patches/ruby/2.0.0/broken_stack_protector.patch usr/share/rvm/src/rvm/patches/ruby/2.0.0
@@ -173,6 +174,7 @@ src/patchsets/ruby/2.1.4/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.1
 src/patchsets/ruby/2.1.4/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.1.4
 src/patchsets/ruby/1.9.1/default usr/share/rvm/src/rvm/patchsets/ruby/1.9.1
 src/patchsets/ruby/1.9.1/p431/default usr/share/rvm/src/rvm/patchsets/ruby/1.9.1/p431
+src/patchsets/ruby/2.2.0/default usr/share/rvm/src/rvm/patchsets/ruby/2.2.0
 src/patchsets/ruby/2.0.0/centos usr/share/rvm/src/rvm/patchsets/ruby/2.0.0
 src/patchsets/ruby/2.0.0/p353/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.0.0/p353
 src/patchsets/ruby/2.0.0/p353/default usr/share/rvm/src/rvm/patchsets/ruby/2.0.0/p353
