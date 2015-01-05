@@ -170,11 +170,13 @@ src/README.rdoc usr/share/rvm/src/rvm
 src/patchsets/ree/1.8.6/default usr/share/rvm/src/rvm/patchsets/ree/1.8.6
 src/patchsets/ree/1.8.7/default usr/share/rvm/src/rvm/patchsets/ree/1.8.7
 src/patchsets/ree/1.8.7/2012.02/default usr/share/rvm/src/rvm/patchsets/ree/1.8.7/2012.02
+src/patchsets/ruby/2.2/head/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.2/head
 src/patchsets/ruby/2.1.4/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.1.4
 src/patchsets/ruby/2.1.4/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.1.4
 src/patchsets/ruby/1.9.1/default usr/share/rvm/src/rvm/patchsets/ruby/1.9.1
 src/patchsets/ruby/1.9.1/p431/default usr/share/rvm/src/rvm/patchsets/ruby/1.9.1/p431
 src/patchsets/ruby/2.2.0/default usr/share/rvm/src/rvm/patchsets/ruby/2.2.0
+src/patchsets/ruby/2.2.0/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.2.0
 src/patchsets/ruby/2.0.0/centos usr/share/rvm/src/rvm/patchsets/ruby/2.0.0
 src/patchsets/ruby/2.0.0/p353/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.0.0/p353
 src/patchsets/ruby/2.0.0/p353/default usr/share/rvm/src/rvm/patchsets/ruby/2.0.0/p353
@@ -462,6 +464,7 @@ src/scripts/functions/install usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/build_config_system usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/rvmrc_warning usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/utility usr/share/rvm/src/rvm/scripts/functions
+src/scripts/functions/detect_system usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/build_config usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/build usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/env usr/share/rvm/src/rvm/scripts/functions
