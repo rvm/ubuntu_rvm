@@ -166,6 +166,7 @@ src/config/remote usr/share/rvm/src/rvm/config
 src/config/md5 usr/share/rvm/src/rvm/config
 src/config/sha512 usr/share/rvm/src/rvm/config
 src/config/known usr/share/rvm/src/rvm/config
+src/config/known_aliases usr/share/rvm/src/rvm/config
 src/README.rdoc usr/share/rvm/src/rvm
 src/patchsets/ree/1.8.6/default usr/share/rvm/src/rvm/patchsets/ree/1.8.6
 src/patchsets/ree/1.8.7/default usr/share/rvm/src/rvm/patchsets/ree/1.8.7
@@ -360,7 +361,6 @@ src/scripts/snapshot usr/share/rvm/src/rvm/scripts
 src/scripts/pkg usr/share/rvm/src/rvm/scripts
 src/scripts/override_gem usr/share/rvm/src/rvm/scripts
 src/scripts/completion usr/share/rvm/src/rvm/scripts
-src/scripts/db usr/share/rvm/src/rvm/scripts
 src/scripts/mount usr/share/rvm/src/rvm/scripts
 src/scripts/set usr/share/rvm/src/rvm/scripts
 src/scripts/wrapper usr/share/rvm/src/rvm/scripts
