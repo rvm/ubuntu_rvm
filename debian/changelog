@@ -1,3 +1,9 @@
+rvm (1.26.11-1) trusty; urgency=medium
+
+  * Updating RVM to 1.26.11
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Tue, 31 Mar 2015 17:06:58 -0300
+
 rvm (1.26.10-1) trusty; urgency=medium
 
   * Updating RVM to 1.26.10

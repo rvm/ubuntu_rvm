@@ -83,6 +83,7 @@ src/patches/ruby/1.9.3/p327/falcon-gc.diff usr/share/rvm/src/rvm/patches/ruby/1.
 src/patches/ruby/1.9.3/p327/falcon.diff usr/share/rvm/src/rvm/patches/ruby/1.9.3/p327
 src/patches/ruby/1.9.3/p385/ruby-multilib.patch usr/share/rvm/src/rvm/patches/ruby/1.9.3/p385
 src/patches/ruby/1.9.3/preview1/gcdata.patch usr/share/rvm/src/rvm/patches/ruby/1.9.3/preview1
+src/patches/ruby/2.2.1/fix_installing_bundled_gems.patch usr/share/rvm/src/rvm/patches/ruby/2.2.1
 src/patches/ruby/1.8.4/backported-ossl-fixes.diff usr/share/rvm/src/rvm/patches/ruby/1.8.4
 src/patches/ruby/1.8.4/no_sslv2.diff usr/share/rvm/src/rvm/patches/ruby/1.8.4
 src/patches/ruby/1.8.4/railsbench.patch usr/share/rvm/src/rvm/patches/ruby/1.8.4
@@ -144,7 +145,6 @@ src/contrib/hudson/rvmRake-1.0-SNAPSHOT-20100819.hpi usr/share/rvm/src/rvm/contr
 src/contrib/hudson/rvmRubyMetrics-1.0-SNAPSHOT-20100819.hpi usr/share/rvm/src/rvm/contrib/hudson
 src/contrib/hudson/README.md usr/share/rvm/src/rvm/contrib/hudson
 src/contrib/hudson/rvmRuby-1.0-SNAPSHOT-20100819.hpi usr/share/rvm/src/rvm/contrib/hudson
-src/contrib/bootstrap_rails_environment usr/share/rvm/src/rvm/contrib
 src/History.txt usr/share/rvm/src/rvm
 src/update-remote.sh usr/share/rvm/src/rvm
 src/bin/rvm usr/share/rvm/src/rvm/bin
@@ -258,6 +258,8 @@ src/patchsets/ruby/1.9.3/p547/float_warnings usr/share/rvm/src/rvm/patchsets/rub
 src/patchsets/ruby/1.9.3/p547/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/1.9.3/p547
 src/patchsets/ruby/1.9.3/head/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/1.9.3/head
 src/patchsets/ruby/1.9.3/head/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/1.9.3/head
+src/patchsets/ruby/2.2.1/default usr/share/rvm/src/rvm/patchsets/ruby/2.2.1
+src/patchsets/ruby/2.2.1/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.2.1
 src/patchsets/ruby/1.8.4/default usr/share/rvm/src/rvm/patchsets/ruby/1.8.4
 src/patchsets/ruby/2.1.0/optional usr/share/rvm/src/rvm/patchsets/ruby/2.1.0
 src/patchsets/ruby/2.1.0/osx_static usr/share/rvm/src/rvm/patchsets/ruby/2.1.0
