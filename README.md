@@ -34,7 +34,7 @@ At terminal window, click `Edit` > `Profile Preferences`, click on `Title and Co
 
 ## 3. Logout and login
 
-A lot of changes were made and in order to properly get all them working, you need to login and logout. This requires not only close terminal, but really logout and login again.
+A lot of changes were made (scripts that needs to be reloaded, you're now member of `rvm` group) and in order to properly get all them working, you need to login and logout. This requires not only close terminal, but really logout and login again.
 
 ## 4. Install a ruby
 
