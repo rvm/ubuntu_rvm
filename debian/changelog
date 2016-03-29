@@ -1,3 +1,9 @@
+rvm (1.27.0-2) trusty; urgency=medium
+
+  * Removing unrequired `rvm requirements` from install/upgrade
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Tue, 29 Mar 2016 13:15:59 -0300
+
 rvm (1.27.0-1) trusty; urgency=medium
 
   * Updating RVM to 1.27.0
