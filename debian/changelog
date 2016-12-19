@@ -1,3 +1,9 @@
+rvm (1.28.0-1) trusty; urgency=medium
+
+  * Updating RVM to 1.28.0
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Mon, 19 Dec 2016 21:03:11 -0200
+
 rvm (1.27.0-2) trusty; urgency=medium
 
   * Removing unrequired `rvm requirements` from install/upgrade
