@@ -45,7 +45,7 @@ rvm install ruby
 ```
 # RVM Usage
 
-RVM complete instructions are available at RVM repository: https://github.com/wayneeseguin/rvm/tree/stable
+RVM complete instructions are available at RVM repository: https://github.com/rvm/rvm
 
 Additionally you can check manual pages too: open a Terminal (`Ctrl+Alt+T`) and run:
 
