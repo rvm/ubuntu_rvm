@@ -53,6 +53,8 @@ src/scripts/migrate usr/share/rvm/src/rvm/scripts
 src/scripts/tools usr/share/rvm/src/rvm/scripts
 src/scripts/functions/detect_system usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/group usr/share/rvm/src/rvm/scripts/functions
+src/scripts/functions/build_undesired_helpers usr/share/rvm/src/rvm/scripts/functions
+src/scripts/functions/rvmrc_env usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/init usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/installer usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/osx-support usr/share/rvm/src/rvm/scripts/functions
@@ -152,6 +154,7 @@ src/scripts/functions/utility_system usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/rvmrc usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/selector_parse usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/build_requirements_helpers usr/share/rvm/src/rvm/scripts/functions
+src/scripts/functions/detect_system_debian usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/rvmrc_project usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/build_requirements usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/cleanup usr/share/rvm/src/rvm/scripts/functions
@@ -582,6 +585,7 @@ src/patchsets/ruby/2.1.0/default usr/share/rvm/src/rvm/patchsets/ruby/2.1.0
 src/patchsets/ruby/2.1.0/osx_static usr/share/rvm/src/rvm/patchsets/ruby/2.1.0
 src/patchsets/ruby/2.1.0/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.1.0
 src/patchsets/ruby/2.1.0/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.1.0
+src/patchsets/ruby/2.3.3/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.3.3
 src/patchsets/ruby/1.9.1/default usr/share/rvm/src/rvm/patchsets/ruby/1.9.1
 src/patchsets/ruby/1.9.1/p431/default usr/share/rvm/src/rvm/patchsets/ruby/1.9.1/p431
 src/patchsets/ruby/2.2.5/default usr/share/rvm/src/rvm/patchsets/ruby/2.2.5
@@ -614,6 +618,7 @@ src/VERSION usr/share/rvm/src/rvm
 src/gem-cache/gem-empty-1.1.2.gem usr/share/rvm/src/rvm/gem-cache
 src/gem-cache/rvm-1.11.3.9.gem usr/share/rvm/src/rvm/gem-cache
 src/gem-cache/gem-wrappers-1.2.7.gem usr/share/rvm/src/rvm/gem-cache
+src/rvm-test-rvm1/pwd_cd_hook_comment_test.sh usr/share/rvm/src/rvm/rvm-test-rvm1
 src/rvm-test-rvm1/path_mismatch_comment_test.sh usr/share/rvm/src/rvm/rvm-test-rvm1
 src/rvm-test-rvm1/bundler_cd_hook_comment_test.sh usr/share/rvm/src/rvm/rvm-test-rvm1
 src/rvm-test-rvm1/load_ruby-version_comment_test.sh usr/share/rvm/src/rvm/rvm-test-rvm1
