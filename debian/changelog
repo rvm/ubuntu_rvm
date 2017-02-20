@@ -1,3 +1,9 @@
+rvm (1.29.1-1) trusty; urgency=medium
+
+  * Updating RVM to 1.29.1
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Mon, 20 Feb 2017 08:55:05 -0300
+
 rvm (1.29.0-1) trusty; urgency=medium
 
   * Updating RVM to 1.29.0
