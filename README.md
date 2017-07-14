@@ -14,6 +14,16 @@ Additionally automatic updates are provided by a Ubuntu PPA.
 
 # Install
 
+## Pre-requisites
+
+You need `software-properties-common` installed in order to add `PPA` repositories.
+
+If **not** installed, open a terminal (`Ctrl+Alt+T`) and run:
+
+```term
+sudo apt-get install software-properties-common
+```
+
 ## 1. Add the PPA and install the package
 
 Open a terminal (`Ctrl+Alt+T`) and run:
