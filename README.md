@@ -34,8 +34,6 @@ sudo apt-get update
 sudo apt-get install rvm
 ```
 
-NOTE: if `apt-add-repository` is not present on your Ubuntu you can get it via `apt-get install software-properties-common`.
-
 ## 2. Change your terminal window
 
 Now, in order to always load rvm, change the Gnome Terminal to always perform a login.
