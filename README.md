@@ -62,3 +62,26 @@ Additionally you can check manual pages too: open a Terminal (`Ctrl+Alt+T`) and 
 ```term
 man rvm
 ```
+
+# Troubleshooting
+
+## 1. Cannot add PPA
+
+If you're facing the following error:
+
+```terminal
+Cannot add PPA: 'ppa:~rael-gc/ubuntu/rvm'.
+ERROR: '~rael-gc' user or team does not exist
+```
+
+Sounds like you're under a proxy. Please, follow instructions to [add-apt-repository to work through a proxy](https://askubuntu.com/questions/53146/how-do-i-get-add-apt-repository-to-work-through-a-proxy).
+
+## 2. Cannot upgrade to rvm master due `Operation not permitted`
+
+If you're trying to upgrade to `rvm master` and are facing error messages like this:
+
+```terminal
+chmod: changing permissions of '/usr/share/rvm/src/rvm': Operation not permitted
+```
+
+Fix it with: `rvm cleanup all`.
