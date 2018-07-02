@@ -1,3 +1,9 @@
+rvm (1.29.4-1) xenial; urgency=medium
+
+  * Updating RVM to 1.29.4
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Mon, 02 Jul 2018 14:53:36 -0300
+
 rvm (1.29.3-4) bionic; urgency=medium
 
   * Fixing Bionic dependencies (#24)
