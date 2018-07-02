@@ -42,9 +42,9 @@ At terminal window, click `Edit` > `Profile Preferences`, click on `Title and Co
 
 ![Terminal Screenshot](terminal.png)
 
-## 3. Logout and login
+## 3. Restart
 
-A lot of changes were made (scripts that needs to be reloaded, you're now member of `rvm` group) and in order to properly get all them working, you need to login and logout. This requires not only close terminal, but really logout and login again.
+A lot of changes were made (scripts that needs to be reloaded, you're now member of `rvm` group) and in order to properly get all them working, you need to login and logout. This requires not only close terminal, but restart your system.
 
 ## 4. Install a ruby
 
@@ -62,3 +62,26 @@ Additionally you can check manual pages too: open a Terminal (`Ctrl+Alt+T`) and 
 ```term
 man rvm
 ```
+
+# Troubleshooting
+
+## 1. Cannot add PPA
+
+If you're facing the following error:
+
+```terminal
+Cannot add PPA: 'ppa:~rael-gc/ubuntu/rvm'.
+ERROR: '~rael-gc' user or team does not exist
+```
+
+Sounds like you're under a proxy. Please, follow instructions to [add-apt-repository to work through a proxy](https://askubuntu.com/questions/53146/how-do-i-get-add-apt-repository-to-work-through-a-proxy).
+
+## 2. Cannot upgrade to rvm master due `Operation not permitted`
+
+If you're trying to upgrade to `rvm master` and are facing error messages like this:
+
+```terminal
+chmod: changing permissions of '/usr/share/rvm/src/rvm': Operation not permitted
+```
+
+Fix it with: `rvm cleanup all`.
