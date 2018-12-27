@@ -50,7 +50,6 @@ src/scripts/override_gem usr/share/rvm/src/rvm/scripts
 src/scripts/notes usr/share/rvm/src/rvm/scripts
 src/scripts/migrate usr/share/rvm/src/rvm/scripts
 src/scripts/tools usr/share/rvm/src/rvm/scripts
-src/scripts/functions/detect_system usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/group usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/build_undesired_helpers usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/rvmrc_env usr/share/rvm/src/rvm/scripts/functions
@@ -80,6 +79,7 @@ src/scripts/functions/manage/base_remove usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/manage/truffleruby usr/share/rvm/src/rvm/scripts/functions/manage
 src/scripts/functions/manage/base_fetch usr/share/rvm/src/rvm/scripts/functions/manage
 src/scripts/functions/manage/ruby usr/share/rvm/src/rvm/scripts/functions/manage
+src/scripts/functions/manage/install/osx usr/share/rvm/src/rvm/scripts/functions/manage/install
 src/scripts/functions/manage/base_install_patches usr/share/rvm/src/rvm/scripts/functions/manage
 src/scripts/functions/manage/base_install usr/share/rvm/src/rvm/scripts/functions/manage
 src/scripts/functions/manage/macruby usr/share/rvm/src/rvm/scripts/functions/manage
@@ -126,6 +126,7 @@ src/scripts/functions/requirements/rosadesktop usr/share/rvm/src/rvm/scripts/fun
 src/scripts/functions/requirements/sabayon usr/share/rvm/src/rvm/scripts/functions/requirements
 src/scripts/functions/requirements/smf usr/share/rvm/src/rvm/scripts/functions/requirements
 src/scripts/functions/requirements/opensuse usr/share/rvm/src/rvm/scripts/functions/requirements
+src/scripts/functions/requirements/trisquel usr/share/rvm/src/rvm/scripts/functions/requirements
 src/scripts/functions/requirements/osx usr/share/rvm/src/rvm/scripts/functions/requirements
 src/scripts/functions/requirements/scientific usr/share/rvm/src/rvm/scripts/functions/requirements
 src/scripts/functions/requirements/suse usr/share/rvm/src/rvm/scripts/functions/requirements
@@ -142,12 +143,18 @@ src/scripts/functions/requirements/solus usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/requirements/openmandriva usr/share/rvm/src/rvm/scripts/functions/requirements
 src/scripts/functions/requirements/smartos usr/share/rvm/src/rvm/scripts/functions/requirements
 src/scripts/functions/requirements/gentoo_portage usr/share/rvm/src/rvm/scripts/functions/requirements
+src/scripts/functions/requirements/void usr/share/rvm/src/rvm/scripts/functions/requirements
 src/scripts/functions/requirements/openbsd usr/share/rvm/src/rvm/scripts/functions/requirements
 src/scripts/functions/env usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/rubygems usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/cli usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/alias usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/autolibs usr/share/rvm/src/rvm/scripts/functions
+src/scripts/functions/detect/system_version/codename usr/share/rvm/src/rvm/scripts/functions/detect/system_version
+src/scripts/functions/detect/xcode usr/share/rvm/src/rvm/scripts/functions/detect
+src/scripts/functions/detect/system usr/share/rvm/src/rvm/scripts/functions/detect
+src/scripts/functions/detect/system_name/os_release usr/share/rvm/src/rvm/scripts/functions/detect/system_name
+src/scripts/functions/detect/system_name/lsb_release usr/share/rvm/src/rvm/scripts/functions/detect/system_name
 src/scripts/functions/notes/warnings/warning_rvm_group usr/share/rvm/src/rvm/scripts/functions/notes/warnings
 src/scripts/functions/notes/warnings/warning_gem_home usr/share/rvm/src/rvm/scripts/functions/notes/warnings
 src/scripts/functions/notes/warnings/warning_gemrc usr/share/rvm/src/rvm/scripts/functions/notes/warnings
@@ -178,9 +185,6 @@ src/scripts/functions/version-installed-when usr/share/rvm/src/rvm/scripts/funct
 src/scripts/functions/rvmrc_project usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/build_requirements usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/cleanup usr/share/rvm/src/rvm/scripts/functions
-src/scripts/functions/detect_systems/os_release usr/share/rvm/src/rvm/scripts/functions/detect_systems
-src/scripts/functions/detect_systems/debian_codenames usr/share/rvm/src/rvm/scripts/functions/detect_systems
-src/scripts/functions/detect_systems/lsb_release usr/share/rvm/src/rvm/scripts/functions/detect_systems
 src/scripts/functions/rvmrc_trust usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/logging usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/rvmrc_warning usr/share/rvm/src/rvm/scripts/functions
@@ -197,6 +201,7 @@ src/scripts/cleanup usr/share/rvm/src/rvm/scripts
 src/README.md usr/share/rvm/src/rvm
 src/Rakefile usr/share/rvm/src/rvm
 src/.editorconfig usr/share/rvm/src/rvm
+src/patches/ruby/2.5.1/libressl_2_7.patch usr/share/rvm/src/rvm/patches/ruby/2.5.1
 src/patches/ruby/GH-488.patch usr/share/rvm/src/rvm/patches/ruby
 src/patches/ruby/2.1.4/openssl3.patch usr/share/rvm/src/rvm/patches/ruby/2.1.4
 src/patches/ruby/1.8.5/osx-arch-fix.patch usr/share/rvm/src/rvm/patches/ruby/1.8.5
@@ -211,6 +216,7 @@ src/patches/ruby/1.8.5/gcc44_dtoa.diff usr/share/rvm/src/rvm/patches/ruby/1.8.5
 src/patches/ruby/1.8.5/syck.patch usr/share/rvm/src/rvm/patches/ruby/1.8.5
 src/patches/ruby/2.2.8/fix_installing_bundled_gems.patch usr/share/rvm/src/rvm/patches/ruby/2.2.8
 src/patches/ruby/2.2.9/fix_installing_bundled_gems.patch usr/share/rvm/src/rvm/patches/ruby/2.2.9
+src/patches/ruby/2.5.0/libressl_2_7.patch usr/share/rvm/src/rvm/patches/ruby/2.5.0
 src/patches/ruby/2.5.0/prelude_gcc_diagnostic.patch usr/share/rvm/src/rvm/patches/ruby/2.5.0
 src/patches/ruby/2.1.6/openssl3.patch usr/share/rvm/src/rvm/patches/ruby/2.1.6
 src/patches/ruby/cc_env.patch usr/share/rvm/src/rvm/patches/ruby
@@ -471,7 +477,9 @@ src/config/known_aliases usr/share/rvm/src/rvm/config
 src/config/ssh.example usr/share/rvm/src/rvm/config
 src/config/pre_commit.yml usr/share/rvm/src/rvm/config
 src/config/known_strings usr/share/rvm/src/rvm/config
+src/patchsets/ruby/2.5.1/default usr/share/rvm/src/rvm/patchsets/ruby/2.5.1
 src/patchsets/ruby/2.5.1/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.5.1
+src/patchsets/ruby/2.5.3/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.5.3
 src/patchsets/ruby/head/osx_static usr/share/rvm/src/rvm/patchsets/ruby/head
 src/patchsets/ruby/head/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/head
 src/patchsets/ruby/2.1.4/default usr/share/rvm/src/rvm/patchsets/ruby/2.1.4
@@ -587,6 +595,8 @@ src/patchsets/ruby/2.4/head/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.
 src/patchsets/ruby/2.2.0/default usr/share/rvm/src/rvm/patchsets/ruby/2.2.0
 src/patchsets/ruby/2.2.0/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.2.0
 src/patchsets/ruby/2.2.0/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.2.0
+src/patchsets/ruby/2.4.5/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.4.5
+src/patchsets/ruby/2.3.8/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.3.8
 src/patchsets/ruby/2.3.2/default usr/share/rvm/src/rvm/patchsets/ruby/2.3.2
 src/patchsets/ruby/2.3.2/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.3.2
 src/patchsets/ruby/2.2.3/default usr/share/rvm/src/rvm/patchsets/ruby/2.2.3

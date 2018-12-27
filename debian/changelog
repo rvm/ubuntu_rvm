@@ -1,3 +1,9 @@
+rvm (1.29.6-1) xenial; urgency=medium
+
+  * Updating RVM to 1.29.6
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Thu, 27 Dec 2018 10:55:10 -0200
+
 rvm (1.29.4-1) xenial; urgency=medium
 
   * Updating RVM to 1.29.4
