@@ -453,6 +453,7 @@ src/contrib/hudson/rvmRake-1.0-SNAPSHOT-20100819.hpi usr/share/rvm/src/rvm/contr
 src/contrib/ps1_functions usr/share/rvm/src/rvm/contrib
 src/contrib/gemset_snapshot usr/share/rvm/src/rvm/contrib
 src/HACKING.md usr/share/rvm/src/rvm
+src/docs/release-procedure.md usr/share/rvm/src/rvm/docs
 src/docs/alt.md usr/share/rvm/src/rvm/docs
 src/docs/color.md usr/share/rvm/src/rvm/docs
 src/docs/gpg.md usr/share/rvm/src/rvm/docs
@@ -479,6 +480,7 @@ src/config/pre_commit.yml usr/share/rvm/src/rvm/config
 src/config/known_strings usr/share/rvm/src/rvm/config
 src/patchsets/ruby/2.5.1/default usr/share/rvm/src/rvm/patchsets/ruby/2.5.1
 src/patchsets/ruby/2.5.1/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.5.1
+src/patchsets/ruby/2.6.0/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.6.0
 src/patchsets/ruby/2.5.3/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.5.3
 src/patchsets/ruby/head/osx_static usr/share/rvm/src/rvm/patchsets/ruby/head
 src/patchsets/ruby/head/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/head
@@ -497,6 +499,7 @@ src/patchsets/ruby/2.3/head/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/
 src/patchsets/ruby/2.3/head/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.3/head
 src/patchsets/ruby/2.3.5/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.3.5
 src/patchsets/ruby/2.3.5/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.3.5
+src/patchsets/ruby/2.6/head/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.6/head
 src/patchsets/ruby/2.1.6/default usr/share/rvm/src/rvm/patchsets/ruby/2.1.6
 src/patchsets/ruby/2.1.6/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.1.6
 src/patchsets/ruby/2.1.6/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.1.6
