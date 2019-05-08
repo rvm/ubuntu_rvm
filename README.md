@@ -87,7 +87,7 @@ If you're trying to upgrade to `rvm master` and are facing error messages like t
 chmod: changing permissions of '/usr/share/rvm/src/rvm': Operation not permitted
 ```
 
-Fix it with: `rvm cleanup all`.
+Fix it with: `rvmsudo rvm cleanup all`.
 
 # Contributing
 
