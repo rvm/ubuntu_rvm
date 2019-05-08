@@ -168,6 +168,7 @@ src/scripts/functions/notes/warnings/warning_profile usr/share/rvm/src/rvm/scrip
 src/scripts/functions/notes/warnings/warning_needs_cleanup usr/share/rvm/src/rvm/scripts/functions/notes/warnings
 src/scripts/functions/notes/warnings/warning_rvm_in_usr usr/share/rvm/src/rvm/scripts/functions/notes/warnings
 src/scripts/functions/notes/warnings/warning_loading_script usr/share/rvm/src/rvm/scripts/functions/notes/warnings
+src/scripts/functions/notes/opencollective usr/share/rvm/src/rvm/scripts/functions/notes
 src/scripts/functions/tools usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/utility_logging usr/share/rvm/src/rvm/scripts/functions
 src/scripts/functions/gemset usr/share/rvm/src/rvm/scripts/functions
@@ -376,6 +377,7 @@ src/patches/ree/1.8.6/stdout-rouge-fix.patch usr/share/rvm/src/rvm/patches/ree/1
 src/patches/ree/1.8.6/perftools-gcc46.patch usr/share/rvm/src/rvm/patches/ree/1.8.6
 src/patches/ree/1.8.6/openssl-1.0.patch usr/share/rvm/src/rvm/patches/ree/1.8.6
 src/patches/ree/1.8.6/tcmalloc.patch usr/share/rvm/src/rvm/patches/ree/1.8.6
+src/update-truffleruby.rb usr/share/rvm/src/rvm
 src/hooks/after_use_home_bin usr/share/rvm/src/rvm/hooks
 src/hooks/after_use_rbx_opts usr/share/rvm/src/rvm/hooks
 src/hooks/after_use_textmate usr/share/rvm/src/rvm/hooks
@@ -458,6 +460,7 @@ src/docs/alt.md usr/share/rvm/src/rvm/docs
 src/docs/color.md usr/share/rvm/src/rvm/docs
 src/docs/gpg.md usr/share/rvm/src/rvm/docs
 src/docs/upgrade-notes.md usr/share/rvm/src/rvm/docs
+src/gem-owners.sh usr/share/rvm/src/rvm
 src/gemsets/global.gems usr/share/rvm/src/rvm/gemsets
 src/gemsets/ruby/1.8.5/global.gems usr/share/rvm/src/rvm/gemsets/ruby/1.8.5
 src/gemsets/ruby/1.8.7/global.gems usr/share/rvm/src/rvm/gemsets/ruby/1.8.7
@@ -573,10 +576,12 @@ src/patchsets/ruby/2.2.1/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.2
 src/patchsets/ruby/2.2.1/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.2.1
 src/patchsets/ruby/2.2.10/default usr/share/rvm/src/rvm/patchsets/ruby/2.2.10
 src/patchsets/ruby/2.2.10/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.2.10
+src/patchsets/ruby/2.5.5/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.5.5
 src/patchsets/ruby/2.1.1/default usr/share/rvm/src/rvm/patchsets/ruby/2.1.1
 src/patchsets/ruby/2.1.1/osx_static usr/share/rvm/src/rvm/patchsets/ruby/2.1.1
 src/patchsets/ruby/2.1.1/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.1.1
 src/patchsets/ruby/2.1.1/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.1.1
+src/patchsets/ruby/2.6.2/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.6.2
 src/patchsets/ruby/2.1.2/default usr/share/rvm/src/rvm/patchsets/ruby/2.1.2
 src/patchsets/ruby/2.1.2/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.1.2
 src/patchsets/ruby/2.1.2/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.1.2
@@ -595,11 +600,13 @@ src/patchsets/ruby/2.4.0/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.4
 src/patchsets/ruby/2.4.0/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.4.0
 src/patchsets/ruby/2.4/head/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.4/head
 src/patchsets/ruby/2.4/head/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.4/head
+src/patchsets/ruby/2.5.4/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.5.4
 src/patchsets/ruby/2.2.0/default usr/share/rvm/src/rvm/patchsets/ruby/2.2.0
 src/patchsets/ruby/2.2.0/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.2.0
 src/patchsets/ruby/2.2.0/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.2.0
 src/patchsets/ruby/2.4.5/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.4.5
 src/patchsets/ruby/2.3.8/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.3.8
+src/patchsets/ruby/2.6.1/railsexpress usr/share/rvm/src/rvm/patchsets/ruby/2.6.1
 src/patchsets/ruby/2.3.2/default usr/share/rvm/src/rvm/patchsets/ruby/2.3.2
 src/patchsets/ruby/2.3.2/float_warnings usr/share/rvm/src/rvm/patchsets/ruby/2.3.2
 src/patchsets/ruby/2.2.3/default usr/share/rvm/src/rvm/patchsets/ruby/2.2.3
