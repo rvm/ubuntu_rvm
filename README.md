@@ -47,7 +47,7 @@ At terminal window, click `Edit` > `Profile Preferences`, click on `Title and Co
 
 ## 3. Restart
 
-A lot of changes were made (scripts that needs to be reloaded, you're now member of `rvm` group) and in order to properly get all them working, you need to login and logout. This requires not only close terminal, but restart your system.
+A lot of changes were made (scripts that needs to be reloaded, you're now member of `rvm` group) and in order to properly get all them working, you need to reboot. This requires not only close terminal, but restart your system.
 
 ## 4. Install a ruby
 
