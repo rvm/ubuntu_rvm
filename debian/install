@@ -749,4 +749,3 @@ src/lib/rvm.rb usr/share/rvm/src/rvm/lib
 src/lib/rvm/capistrano.rb usr/share/rvm/src/rvm/lib/rvm
 src/.gems usr/share/rvm/src/rvm
 src/LICENSE usr/share/rvm/src/rvm
-src/CODE_OF_CONDUCT.md usr/share/rvm/src/rvm
