@@ -1,3 +1,9 @@
+rvm (1.29.9-2) bionic; urgency=medium
+
+  * Fixes installer (#32)
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Mon, 22 Jul 2019 08:17:24 -0300
+
 rvm (1.29.9-1) xenial; urgency=medium
 
   * Updating RVM to 1.29.9
