@@ -45,9 +45,9 @@ At terminal window, click `Edit` > `Profile Preferences`, click on `Title and Co
 
 ![Terminal Screenshot](terminal.png)
 
-## 3. Logout
+## 3. Reboot
 
-A lot of changes were made (scripts that needs to be reloaded, you're now member of `rvm` group) and in order to properly get all them working, you need to logout and login again. This requires not only close terminal windows, but really logout from your system. If you prefer, a reboot is fine too.
+A lot of changes were made (scripts that needs to be reloaded, you're now member of `rvm` group) and in order to properly get all them working, you need to reboot (in most cases a logout/login is enough, but in some Ubuntu derivatives or some terminal emulators, a shell login is not performed, so we advice to reboot).
 
 ## 4. Install a ruby
 
