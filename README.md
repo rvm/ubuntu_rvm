@@ -79,6 +79,14 @@ ERROR: '~rael-gc' user or team does not exist
 
 Sounds like you're under a proxy. Please, follow instructions to [add-apt-repository to work through a proxy](https://askubuntu.com/questions/53146/how-do-i-get-add-apt-repository-to-work-through-a-proxy).
 
+## 2. I need to upgrade to master without wait for new package release
+
+Fine. Just run:
+
+```terminal
+rvmsudo rvm get master
+```
+
 ## 2. Cannot upgrade to rvm master due `Operation not permitted`
 
 If you're trying to upgrade to `rvm master` and are facing error messages like this:
