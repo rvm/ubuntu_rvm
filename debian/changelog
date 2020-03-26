@@ -1,3 +1,15 @@
+rvm (1.29.10-1) xenial; urgency=medium
+
+  * Updating RVM to 1.29.10
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Thu, 26 Mar 2020 09:58:29 -0300
+
+rvm (1.29.9-3) bionic; urgency=medium
+
+  * Reverting RVM changes that broken the installer on Ubuntu (#32)
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Wed, 24 Jul 2019 09:00:01 -0300
+
 rvm (1.29.9-2) bionic; urgency=medium
 
   * Fixes installer (#32)
