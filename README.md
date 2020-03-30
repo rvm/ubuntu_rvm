@@ -73,6 +73,10 @@ man rvm
 
 # Troubleshooting
 
+## 0. Reboot
+
+After install RVM, your user was added to a new group, new environment files were created, etc. Usually a logout, login is enough. But in case you're still facing some issues (usually due terminals not running login shells, etc), just try a system reboot.
+
 ## 1. Cannot add PPA
 
 If you're facing the following error:
@@ -98,15 +102,11 @@ Then run:
 rvmsudo rvm get master
 ```
 
-## 3. Cannot upgrade to rvm master due `Operation not permitted`
+## 3. Files permission issues
 
-If you're trying to upgrade to `rvm master` and are facing error messages like this:
+If you already rebooted, and you're facing any file permission issues during any RVM usage, like `Following files may be not writable`, `sudo is needed` or `Operation not permitted`, you can fix it with:
 
-```terminal
-chmod: changing permissions of '/usr/share/rvm/src/rvm': Operation not permitted
-```
-
-Fix it with: `rvmsudo rvm cleanup all`.
+    rvmsudo rvm cleanup all
 
 # Contributing
 
