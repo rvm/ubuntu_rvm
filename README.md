@@ -107,6 +107,7 @@ rvmsudo rvm get master
 If you already rebooted, and you're facing any file permission issues during any RVM usage, like `Following files may be not writable`, `sudo is needed` or `Operation not permitted`, you can fix it with:
 
     rvmsudo rvm cleanup all
+    rvm fix-permissions
 
 # Contributing
 
