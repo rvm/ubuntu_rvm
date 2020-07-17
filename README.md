@@ -13,7 +13,9 @@ This package installs rvm with some defaults:
 - all sudoers are automatic added to `rvm` group at install;
 - all sudoers get local gemsets enabled;
 
-Additionally automatic updates are provided by a Ubuntu PPA.
+Automatic updates are provided by a Ubuntu PPA. 
+
+Additionally some old packages required to build old ruby binaries (like `libssl1.0-dev`) are automatically available in the PPA too.
 
 # Install
 
