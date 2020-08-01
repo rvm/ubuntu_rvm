@@ -54,7 +54,7 @@ echo 'source "/etc/profile.d/rvm.sh"' >> ~/.bashrc
 
 ## 3. Reboot
 
-A lot of changes were made (scripts that needs to be reloaded, you're now member of `rvm` group) and in order to properly get all them working, you need to reboot (in most cases a logout/login is enough, but in some Ubuntu derivatives or some terminal emulators, a shell login is not performed, so we advice to reboot).
+A lot of changes were made (scripts that needs to be reloaded, you're now member of `rvm` group) and in order to properly get all them working, you need to reboot (in most cases a logout/login is enough, but in some Ubuntu derivatives or some terminal emulators, a shell login is not performed, so we advise to reboot).
 
 ## 4. Install a ruby
 
