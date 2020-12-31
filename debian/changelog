@@ -1,3 +1,9 @@
+rvm (1.29.11-1) focal; urgency=medium
+
+  * Updating RVM to 1.29.11
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Thu, 31 Dec 2020 13:59:10 -0300
+
 rvm (1.29.10-1) xenial; urgency=medium
 
   * Updating RVM to 1.29.10
