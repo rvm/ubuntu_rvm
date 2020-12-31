@@ -13,7 +13,9 @@ This package installs rvm with some defaults:
 - all sudoers are automatic added to `rvm` group at install;
 - all sudoers get local gemsets enabled;
 
-Additionally automatic updates are provided by a Ubuntu PPA.
+Automatic updates are provided by a Ubuntu PPA. 
+
+Additionally some old packages required to build old ruby binaries (like `libssl1.0-dev`) are automatically available in the PPA too.
 
 # Install
 
@@ -52,7 +54,7 @@ echo 'source "/etc/profile.d/rvm.sh"' >> ~/.bashrc
 
 ## 3. Reboot
 
-A lot of changes were made (scripts that needs to be reloaded, you're now member of `rvm` group) and in order to properly get all them working, you need to reboot (in most cases a logout/login is enough, but in some Ubuntu derivatives or some terminal emulators, a shell login is not performed, so we advice to reboot).
+A lot of changes were made (scripts that needs to be reloaded, you're now member of `rvm` group) and in order to properly get all them working, you need to reboot (in most cases a logout/login is enough, but in some Ubuntu derivatives or some terminal emulators, a shell login is not performed, so we advise to reboot).
 
 ## 4. Install a ruby
 
@@ -72,6 +74,10 @@ man rvm
 ```
 
 # Troubleshooting
+
+## 0. Reboot
+
+After install RVM, your user was added to a new group, new environment files were created, etc. Usually a logout, login is enough. But in case you're still facing some issues (usually due terminals not running login shells, etc), just try a system reboot.
 
 ## 1. Cannot add PPA
 
@@ -98,15 +104,12 @@ Then run:
 rvmsudo rvm get master
 ```
 
-## 3. Cannot upgrade to rvm master due `Operation not permitted`
+## 3. Files permission issues
 
-If you're trying to upgrade to `rvm master` and are facing error messages like this:
+If you already rebooted, and you're facing any file permission issues during any RVM usage, like `Following files may be not writable`, `sudo is needed` or `Operation not permitted`, you can fix it with:
 
-```terminal
-chmod: changing permissions of '/usr/share/rvm/src/rvm': Operation not permitted
-```
-
-Fix it with: `rvmsudo rvm cleanup all`.
+    rvmsudo rvm cleanup all
+    rvm fix-permissions
 
 # Contributing
 
