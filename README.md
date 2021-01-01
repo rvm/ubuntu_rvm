@@ -10,8 +10,7 @@ This package installs rvm with some defaults:
 - stable rvm is used;
 - rvm is installed using `mixed-mode` install: usable by all users on the system, with isolated rubies/gemsets in user's $HOME (see more [here](http://rvm.io/rvm/install#installation-explained));
 - rvm is installed into `/usr/share/rvm` (as Debian/Ubuntu convention);
-
-Automatic updates are provided by a Ubuntu PPA. 
+- automatic updates provided by a Ubuntu PPA; 
 
 Additionally some old packages required to build old ruby binaries (like `libssl1.0-dev`) are automatically available in the PPA too.
 
