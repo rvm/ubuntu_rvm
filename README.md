@@ -10,8 +10,6 @@ This package installs rvm with some defaults:
 - stable rvm is used;
 - rvm is installed using `mixed-mode` install: usable by all users on the system, with isolated rubies/gemsets in user's $HOME (see more [here](http://rvm.io/rvm/install#installation-explained));
 - rvm is installed into `/usr/share/rvm` (as Debian/Ubuntu convention);
-- all sudoers are automatic added to `rvm` group at install;
-- all sudoers get local gemsets enabled;
 
 Automatic updates are provided by a Ubuntu PPA. 
 
@@ -39,6 +37,12 @@ sudo apt-get update
 sudo apt-get install rvm
 ```
 
+Add your user to `rvm` group (replace `<yourusername>` by your username):
+
+```term
+sudo usermod -a -G rvm <yourusername>
+```    
+
 ## 2. Change your terminal window
 
 Now, in order to always load rvm, change the Gnome Terminal to always perform a login.
@@ -47,14 +51,17 @@ At terminal window, click `Edit` > `Profile Preferences`, click on `Title and Co
 
 ![Terminal Screenshot](terminal.png)
 
-Or instead, you can run the following command 
-```
-echo 'source "/etc/profile.d/rvm.sh"' >> ~/.bashrc
-```
-
 ## 3. Reboot
 
 A lot of changes were made (scripts that needs to be reloaded, you're now member of `rvm` group) and in order to properly get all them working, you need to reboot (in most cases a logout/login is enough, but in some Ubuntu derivatives or some terminal emulators, a shell login is not performed, so we advise to reboot).
+
+## 4. Enable local gemsets
+
+Now enable local gemsets. Open a terminal (`Ctrl+Alt+T`) and run:
+
+```term
+rvm user gemsets
+```
 
 ## 4. Install a ruby
 

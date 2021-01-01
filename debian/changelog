@@ -1,3 +1,15 @@
+rvm (1.29.11-3) focal; urgency=medium
+
+  * Updating package to follow rvm and don't automatically add sudoers 
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Fri, 01 Jan 2021 17:44:31 -0300
+
+rvm (1.29.11-2) focal; urgency=medium
+
+  * Fixing broken syntax
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Thu, 31 Dec 2020 15:42:07 -0300
+
 rvm (1.29.11-1) focal; urgency=medium
 
   * Updating RVM to 1.29.11

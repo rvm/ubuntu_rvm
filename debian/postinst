@@ -38,19 +38,7 @@ load_rvm() {
 
 case "$1" in
     configure)
-        # Run RVM installer
         load_rvm
-        # Add sudoers to rvm group
-        users=`awk -F':' '/^sudo/{print $4}' /etc/group`
-        IFS=',' read -a array <<< "$users"
-        for u in "${array[@]}"
-        do
-            usermod -a -G rvm $u
-            if [ ! -f "/home/$u/.rvmrc" ]; then
-                echo "Creating local gemsets for $u"
-                su - $u -c "$0 gemsets"
-            fi
-        done
     ;;
     gemsets)
         load_rvm
