@@ -63,13 +63,14 @@ Now enable local gemsets. Open a terminal (`Ctrl+Alt+T`) and run:
 rvm user gemsets
 ```
 
-## 4. Install a ruby
+## 5. Install a ruby
 
 Now you're ready to install rubies. Open a terminal (`Ctrl+Alt+T`) and run:
 
 ```term
 rvm install ruby
 ```
+
 # RVM Usage
 
 RVM complete instructions are available at RVM repository: https://github.com/rvm/rvm
