@@ -1,3 +1,9 @@
+rvm (1.29.12-1) focal; urgency=medium
+
+  * Updating RVM to 1.29.12
+
+ -- Rael Gugelmin Cunha <rael.gc@gmail.com>  Mon, 01 Feb 2021 10:17:34 -0300
+
 rvm (1.29.11-3) focal; urgency=medium
 
   * Updating package to follow rvm and don't automatically add sudoers 
