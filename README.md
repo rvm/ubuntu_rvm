@@ -36,10 +36,10 @@ sudo apt-get update
 sudo apt-get install rvm
 ```
 
-Add your user to `rvm` group (replace `<yourusername>` by your username):
+Add your user to `rvm` group (`$USER` will automatically insert your username):
 
 ```term
-sudo usermod -a -G rvm <yourusername>
+sudo usermod -a -G rvm $USER
 ```    
 
 ## 2. Change your terminal window
