@@ -50,6 +50,11 @@ At terminal window, click `Edit` > `Profile Preferences`, click on `Title and Co
 
 ![Terminal Screenshot](terminal.png)
 
+For newer versions of Ubuntu, at terminal window, click `Terminal Menu` > `Preferences`, click on `Unnamed` and then `Command` tab and check `Run command as login shell`.
+
+![Terminal Screenshot2](https://user-images.githubusercontent.com/19772307/121789399-94cb0780-cbcd-11eb-9d69-1394d8551c63.png)
+
+
 ## 3. Reboot
 
 A lot of changes were made (scripts that needs to be reloaded, you're now member of `rvm` group) and in order to properly get all them working, you need to reboot (in most cases a logout/login is enough, but in some Ubuntu derivatives or some terminal emulators, a shell login is not performed, so we advise to reboot).
