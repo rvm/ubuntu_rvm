@@ -50,7 +50,7 @@ At terminal window, click `Edit` > `Profile Preferences`, click on `Title and Co
 
 ![Terminal Screenshot](terminal.png)
 
-Or instead, if you cannot force terminal to perform a login, or you're facing `Command 'rvm' not found`, you can run the following command to add it to your `.bashrc`:
+Or instead, if you cannot force terminal to perform a login, or you're facing `Command 'rvm' not found`, you can run the following command to append it to your `.bashrc`:
 
 ```term
 echo 'source "/etc/profile.d/rvm.sh"' >> ~/.bashrc
@@ -104,7 +104,7 @@ Sounds like you're under a proxy. Please, follow instructions to [add-apt-reposi
 
 ## 2. Command 'rvm' not found
 
-Check if your terminal is performing a bash login like describe on [Step 2 "Change your terminal window"](#2-change-your-terminal-window). Or instead, you can run the following command to add it to your `.bashrc`:
+Check if your terminal is performing a bash login like describe on [Step 2 "Change your terminal window"](#2-change-your-terminal-window). Or instead, you can run the following command to append it to your `.bashrc`:
 
 ```term
 echo 'source "/etc/profile.d/rvm.sh"' >> ~/.bashrc
