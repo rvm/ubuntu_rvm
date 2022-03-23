@@ -23,7 +23,7 @@ You need `software-properties-common` installed in order to add `PPA` repositori
 If **not** installed, open a terminal (`Ctrl+Alt+T`) and run:
 
 ```term
-sudo apt-get install software-properties-common
+sudo apt-get install -y software-properties-common
 ```
 
 ## 1. Add the PPA and install the package
@@ -33,7 +33,7 @@ Open a terminal (`Ctrl+Alt+T`) and run:
 ```term
 sudo apt-add-repository -y ppa:rael-gc/rvm
 sudo apt-get update
-sudo apt-get install rvm
+sudo apt-get install -y rvm
 ```
 
 Add your user to `rvm` group (`$USER` will automatically insert your username):
