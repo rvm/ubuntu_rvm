@@ -33,7 +33,7 @@ Open a terminal (`Ctrl+Alt+T`) and run:
 ```term
 sudo apt-add-repository -y ppa:rael-gc/rvm
 sudo apt-get update
-sudo apt-get install rvm
+sudo apt-get install -y rvm
 ```
 
 Add your user to `rvm` group (`$USER` will automatically insert your username):
