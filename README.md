@@ -36,10 +36,10 @@ sudo apt-get update
 sudo apt-get install rvm
 ```
 
-Add your user to `rvm` group (replace `<yourusername>` by your username):
+Add your user to `rvm` group (`$USER` will automatically insert your username):
 
 ```term
-sudo usermod -a -G rvm <yourusername>
+sudo usermod -a -G rvm $USER
 ```    
 
 ## 2. Change your terminal window
@@ -49,6 +49,12 @@ Now, in order to always load rvm, change the Gnome Terminal to always perform a 
 At terminal window, click `Edit` > `Profile Preferences`, click on `Title and Command` tab and check `Run command as login shell`.
 
 ![Terminal Screenshot](terminal.png)
+
+Or instead, if you cannot force terminal to perform a login, or you're facing `Command 'rvm' not found`, you can run the following command to append it to your `.bashrc`:
+
+```term
+echo 'source "/etc/profile.d/rvm.sh"' >> ~/.bashrc
+```
 
 ## 3. Reboot
 
@@ -94,10 +100,17 @@ If you're facing the following error:
 Cannot add PPA: 'ppa:~rael-gc/ubuntu/rvm'.
 ERROR: '~rael-gc' user or team does not exist
 ```
-
 Sounds like you're under a proxy. Please, follow instructions to [add-apt-repository to work through a proxy](https://askubuntu.com/questions/53146/how-do-i-get-add-apt-repository-to-work-through-a-proxy).
 
-## 2. I need to upgrade to master without wait for new package release
+## 2. Command 'rvm' not found
+
+Check if your terminal is performing a bash login like describe on [Step 2 "Change your terminal window"](#2-change-your-terminal-window). Or instead, you can run the following command to append it to your `.bashrc`:
+
+```term
+echo 'source "/etc/profile.d/rvm.sh"' >> ~/.bashrc
+```
+
+## 3. I need to upgrade to master without wait for new package release
 
 Fine. First install the `rvm-installer` keys:
 
@@ -111,7 +124,7 @@ Then run:
 rvmsudo rvm get master
 ```
 
-## 3. Files permission issues
+## 4. Files permission issues
 
 If you already rebooted, and you're facing any file permission issues during any RVM usage, like:
 - `Following files may be not writable`
