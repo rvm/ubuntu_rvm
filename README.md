@@ -31,7 +31,7 @@ sudo apt-get install software-properties-common
 Open a terminal (`Ctrl+Alt+T`) and run:
 
 ```term
-sudo apt-add-repository -y ppa:rael-gc/rvm
+sudo add-apt-repository -y ppa:rael-gc/rvm
 sudo apt-get update
 sudo apt-get install rvm
 ```
