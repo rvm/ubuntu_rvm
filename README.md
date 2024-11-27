@@ -113,7 +113,7 @@ gpg --keyserver keyserver.ubuntu.com --recv-keys 409B6B1796C275462A1703113804BB8
 Then run:
 
 ```terminal
-rvmsudo rvm get master
+rvm get master
 ```
 
 ## 4. Files permission issues
