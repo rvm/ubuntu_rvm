@@ -65,8 +65,9 @@ A lot of changes were made (scripts that needs to be reloaded, you're now member
 Now you're ready to install rubies. Open a terminal (`Ctrl+Alt+T`) and run:
 
 ```term
-rvm install ruby
+rvm install ruby-3.3.5
 ```
+(replace 3.3.5 with desired version)
 
 # RVM Usage
 
